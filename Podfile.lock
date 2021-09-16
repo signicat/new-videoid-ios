@@ -1,0 +1,24 @@
+PODS:
+  - eIDWebRTC.bitcode (1.1.32)
+  - lottie-ios (3.1.8)
+  - VideoIDSDK (1.0.4):
+    - eIDWebRTC.bitcode (= 1.1.32)
+    - lottie-ios (= 3.1.8)
+
+DEPENDENCIES:
+  - VideoIDSDK (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - eIDWebRTC.bitcode
+    - lottie-ios
+    - VideoIDSDK
+
+SPEC CHECKSUMS:
+  eIDWebRTC.bitcode: 522a252afe3af0f7e1ac9d605e2500b82a516215
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  VideoIDSDK: bb009a080ae4fc8b01f5479e7913ef9026a23077
+
+PODFILE CHECKSUM: d57461a66bd070e08292cfd272b05d26bde44f4c
+
+COCOAPODS: 1.11.0
