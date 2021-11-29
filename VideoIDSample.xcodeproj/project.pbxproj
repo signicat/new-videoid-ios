@@ -3,11 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEF404001F21AFFC2160FBBE /* Pods_VideoIDSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323F3E22EB611593326B9AF1 /* Pods_VideoIDSample.framework */; };
+		169466EDEBE172FC08DD5F8F /* Pods_VideoIDSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC416AFA5FA021FA33F30C5 /* Pods_VideoIDSample.framework */; };
+		EC3A70512754D76A007C80BA /* DemoUIInfoItemsNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70392754D769007C80BA /* DemoUIInfoItemsNotificationViewController.swift */; };
+		EC3A70522754D76A007C80BA /* DemoUIMediaNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A703A2754D769007C80BA /* DemoUIMediaNotificationViewController.swift */; };
+		EC3A70532754D76A007C80BA /* DemoUIInfoItemsNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A703B2754D769007C80BA /* DemoUIInfoItemsNotificationViewController.xib */; };
+		EC3A70542754D76A007C80BA /* DemoUIMediaNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A703C2754D769007C80BA /* DemoUIMediaNotificationViewController.xib */; };
+		EC3A70552754D76A007C80BA /* CustomVideoIDSDKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A703D2754D76A007C80BA /* CustomVideoIDSDKViewController.swift */; };
+		EC3A70562754D76A007C80BA /* DemoUIPhoneRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A703E2754D76A007C80BA /* DemoUIPhoneRequestViewController.xib */; };
+		EC3A70572754D76A007C80BA /* DemoUIWarningNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A703F2754D76A007C80BA /* DemoUIWarningNotificationViewController.xib */; };
+		EC3A70582754D76A007C80BA /* DemoUICarouselScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A70402754D76A007C80BA /* DemoUICarouselScrollViewController.xib */; };
+		EC3A70592754D76A007C80BA /* DemoUIErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70412754D76A007C80BA /* DemoUIErrorViewController.swift */; };
+		EC3A705A2754D76A007C80BA /* DemoUIWarningNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70422754D76A007C80BA /* DemoUIWarningNotificationViewController.swift */; };
+		EC3A705B2754D76A007C80BA /* DemoUICarouselScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70432754D76A007C80BA /* DemoUICarouselScrollViewController.swift */; };
+		EC3A705C2754D76A007C80BA /* DemoUIErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A70442754D76A007C80BA /* DemoUIErrorViewController.xib */; };
+		EC3A705D2754D76A007C80BA /* DemoUIPermissionsInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A70452754D76A007C80BA /* DemoUIPermissionsInfoViewController.xib */; };
+		EC3A705E2754D76A007C80BA /* DemoUIPhoneRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70462754D76A007C80BA /* DemoUIPhoneRequestViewController.swift */; };
+		EC3A705F2754D76A007C80BA /* DemoUICaptchaOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70472754D76A007C80BA /* DemoUICaptchaOTPViewController.swift */; };
+		EC3A70602754D76A007C80BA /* DemoUICaptchaTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70482754D76A007C80BA /* DemoUICaptchaTextViewController.swift */; };
+		EC3A70612754D76A007C80BA /* DocumentSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A704A2754D76A007C80BA /* DocumentSelectionTableViewCell.swift */; };
+		EC3A70622754D76A007C80BA /* DocumentSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A704B2754D76A007C80BA /* DocumentSelectionTableViewCell.xib */; };
+		EC3A70632754D76A007C80BA /* DemoUIDocumentSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A704C2754D76A007C80BA /* DemoUIDocumentSelectionViewController.swift */; };
+		EC3A70642754D76A007C80BA /* DemoUIDocumentSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A704D2754D76A007C80BA /* DemoUIDocumentSelectionViewController.xib */; };
+		EC3A70652754D76A007C80BA /* DemoUICaptchaOTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A704E2754D76A007C80BA /* DemoUICaptchaOTPViewController.xib */; };
+		EC3A70662754D76A007C80BA /* DemoUIPermissionsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A704F2754D76A007C80BA /* DemoUIPermissionsInfoViewController.swift */; };
+		EC3A70672754D76A007C80BA /* DemoUICaptchaTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A70502754D76A007C80BA /* DemoUICaptchaTextViewController.xib */; };
 		EC87A3C426F3584300924E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87A3C326F3584300924E8D /* AppDelegate.swift */; };
 		EC87A3C626F3584300924E8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87A3C526F3584300924E8D /* SceneDelegate.swift */; };
 		EC87A3C826F3584300924E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87A3C726F3584300924E8D /* ViewController.swift */; };
@@ -17,9 +40,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		323F3E22EB611593326B9AF1 /* Pods_VideoIDSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoIDSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8954607F087A1ADA96A34085 /* Pods-VideoIDSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoIDSample.release.xcconfig"; path = "Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample.release.xcconfig"; sourceTree = "<group>"; };
-		A9A551995EA2B3DF4A1C1AAD /* Pods-VideoIDSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoIDSample.debug.xcconfig"; path = "Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC416AFA5FA021FA33F30C5 /* Pods_VideoIDSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoIDSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00F2AA1BD0AA8D4F02A2D19 /* Pods-VideoIDSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoIDSample.release.xcconfig"; path = "Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample.release.xcconfig"; sourceTree = "<group>"; };
+		E7B4DD820B72BD34C20FAE3D /* Pods-VideoIDSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoIDSample.debug.xcconfig"; path = "Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3A70392754D769007C80BA /* DemoUIInfoItemsNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIInfoItemsNotificationViewController.swift; sourceTree = "<group>"; };
+		EC3A703A2754D769007C80BA /* DemoUIMediaNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIMediaNotificationViewController.swift; sourceTree = "<group>"; };
+		EC3A703B2754D769007C80BA /* DemoUIInfoItemsNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIInfoItemsNotificationViewController.xib; sourceTree = "<group>"; };
+		EC3A703C2754D769007C80BA /* DemoUIMediaNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIMediaNotificationViewController.xib; sourceTree = "<group>"; };
+		EC3A703D2754D76A007C80BA /* CustomVideoIDSDKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVideoIDSDKViewController.swift; sourceTree = "<group>"; };
+		EC3A703E2754D76A007C80BA /* DemoUIPhoneRequestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIPhoneRequestViewController.xib; sourceTree = "<group>"; };
+		EC3A703F2754D76A007C80BA /* DemoUIWarningNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIWarningNotificationViewController.xib; sourceTree = "<group>"; };
+		EC3A70402754D76A007C80BA /* DemoUICarouselScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUICarouselScrollViewController.xib; sourceTree = "<group>"; };
+		EC3A70412754D76A007C80BA /* DemoUIErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIErrorViewController.swift; sourceTree = "<group>"; };
+		EC3A70422754D76A007C80BA /* DemoUIWarningNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIWarningNotificationViewController.swift; sourceTree = "<group>"; };
+		EC3A70432754D76A007C80BA /* DemoUICarouselScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUICarouselScrollViewController.swift; sourceTree = "<group>"; };
+		EC3A70442754D76A007C80BA /* DemoUIErrorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIErrorViewController.xib; sourceTree = "<group>"; };
+		EC3A70452754D76A007C80BA /* DemoUIPermissionsInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIPermissionsInfoViewController.xib; sourceTree = "<group>"; };
+		EC3A70462754D76A007C80BA /* DemoUIPhoneRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIPhoneRequestViewController.swift; sourceTree = "<group>"; };
+		EC3A70472754D76A007C80BA /* DemoUICaptchaOTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUICaptchaOTPViewController.swift; sourceTree = "<group>"; };
+		EC3A70482754D76A007C80BA /* DemoUICaptchaTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUICaptchaTextViewController.swift; sourceTree = "<group>"; };
+		EC3A704A2754D76A007C80BA /* DocumentSelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		EC3A704B2754D76A007C80BA /* DocumentSelectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		EC3A704C2754D76A007C80BA /* DemoUIDocumentSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIDocumentSelectionViewController.swift; sourceTree = "<group>"; };
+		EC3A704D2754D76A007C80BA /* DemoUIDocumentSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIDocumentSelectionViewController.xib; sourceTree = "<group>"; };
+		EC3A704E2754D76A007C80BA /* DemoUICaptchaOTPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUICaptchaOTPViewController.xib; sourceTree = "<group>"; };
+		EC3A704F2754D76A007C80BA /* DemoUIPermissionsInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIPermissionsInfoViewController.swift; sourceTree = "<group>"; };
+		EC3A70502754D76A007C80BA /* DemoUICaptchaTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUICaptchaTextViewController.xib; sourceTree = "<group>"; };
 		EC87A3C026F3584300924E8D /* VideoIDSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoIDSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC87A3C326F3584300924E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC87A3C526F3584300924E8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,21 +81,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF404001F21AFFC2160FBBE /* Pods_VideoIDSample.framework in Frameworks */,
+				169466EDEBE172FC08DD5F8F /* Pods_VideoIDSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3FD54C408921E3820FF0AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC416AFA5FA021FA33F30C5 /* Pods_VideoIDSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		235CCD17734C47D3B008FD83 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9A551995EA2B3DF4A1C1AAD /* Pods-VideoIDSample.debug.xcconfig */,
-				8954607F087A1ADA96A34085 /* Pods-VideoIDSample.release.xcconfig */,
+				E7B4DD820B72BD34C20FAE3D /* Pods-VideoIDSample.debug.xcconfig */,
+				C00F2AA1BD0AA8D4F02A2D19 /* Pods-VideoIDSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC3A70382754D4ED007C80BA /* CustomNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A703D2754D76A007C80BA /* CustomVideoIDSDKViewController.swift */,
+				EC3A70472754D76A007C80BA /* DemoUICaptchaOTPViewController.swift */,
+				EC3A704E2754D76A007C80BA /* DemoUICaptchaOTPViewController.xib */,
+				EC3A70482754D76A007C80BA /* DemoUICaptchaTextViewController.swift */,
+				EC3A70502754D76A007C80BA /* DemoUICaptchaTextViewController.xib */,
+				EC3A70432754D76A007C80BA /* DemoUICarouselScrollViewController.swift */,
+				EC3A70402754D76A007C80BA /* DemoUICarouselScrollViewController.xib */,
+				EC3A70492754D76A007C80BA /* DemoUIDocumentSelection */,
+				EC3A70412754D76A007C80BA /* DemoUIErrorViewController.swift */,
+				EC3A70442754D76A007C80BA /* DemoUIErrorViewController.xib */,
+				EC3A70392754D769007C80BA /* DemoUIInfoItemsNotificationViewController.swift */,
+				EC3A703B2754D769007C80BA /* DemoUIInfoItemsNotificationViewController.xib */,
+				EC3A703A2754D769007C80BA /* DemoUIMediaNotificationViewController.swift */,
+				EC3A703C2754D769007C80BA /* DemoUIMediaNotificationViewController.xib */,
+				EC3A704F2754D76A007C80BA /* DemoUIPermissionsInfoViewController.swift */,
+				EC3A70452754D76A007C80BA /* DemoUIPermissionsInfoViewController.xib */,
+				EC3A70462754D76A007C80BA /* DemoUIPhoneRequestViewController.swift */,
+				EC3A703E2754D76A007C80BA /* DemoUIPhoneRequestViewController.xib */,
+				EC3A70422754D76A007C80BA /* DemoUIWarningNotificationViewController.swift */,
+				EC3A703F2754D76A007C80BA /* DemoUIWarningNotificationViewController.xib */,
+			);
+			path = CustomNotifications;
+			sourceTree = "<group>";
+		};
+		EC3A70492754D76A007C80BA /* DemoUIDocumentSelection */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A704A2754D76A007C80BA /* DocumentSelectionTableViewCell.swift */,
+				EC3A704B2754D76A007C80BA /* DocumentSelectionTableViewCell.xib */,
+				EC3A704C2754D76A007C80BA /* DemoUIDocumentSelectionViewController.swift */,
+				EC3A704D2754D76A007C80BA /* DemoUIDocumentSelectionViewController.xib */,
+			);
+			path = DemoUIDocumentSelection;
 			sourceTree = "<group>";
 		};
 		EC87A3B726F3584300924E8D = {
@@ -58,7 +149,7 @@
 				EC87A3C226F3584300924E8D /* VideoIDSample */,
 				EC87A3C126F3584300924E8D /* Products */,
 				235CCD17734C47D3B008FD83 /* Pods */,
-				ED22E4E8CC25AC7952B2A944 /* Frameworks */,
+				0C3FD54C408921E3820FF0AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +164,7 @@
 		EC87A3C226F3584300924E8D /* VideoIDSample */ = {
 			isa = PBXGroup;
 			children = (
+				EC3A70382754D4ED007C80BA /* CustomNotifications */,
 				EC87A3C326F3584300924E8D /* AppDelegate.swift */,
 				EC87A3C526F3584300924E8D /* SceneDelegate.swift */,
 				EC87A3C726F3584300924E8D /* ViewController.swift */,
@@ -84,14 +176,6 @@
 			path = VideoIDSample;
 			sourceTree = "<group>";
 		};
-		ED22E4E8CC25AC7952B2A944 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				323F3E22EB611593326B9AF1 /* Pods_VideoIDSample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,11 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC87A3D426F3584900924E8D /* Build configuration list for PBXNativeTarget "VideoIDSample" */;
 			buildPhases = (
-				F225BC72D9C4DC59876BC4FD /* [CP] Check Pods Manifest.lock */,
+				B30A8E277C5241F8E6569AA1 /* [CP] Check Pods Manifest.lock */,
 				EC87A3BC26F3584300924E8D /* Sources */,
 				EC87A3BD26F3584300924E8D /* Frameworks */,
 				EC87A3BE26F3584300924E8D /* Resources */,
-				BF9EF91E828262A7A2BEB29D /* [CP] Embed Pods Frameworks */,
+				DEE611210AEAE14E3B843403 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,33 +235,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3A70562754D76A007C80BA /* DemoUIPhoneRequestViewController.xib in Resources */,
+				EC3A70642754D76A007C80BA /* DemoUIDocumentSelectionViewController.xib in Resources */,
+				EC3A70542754D76A007C80BA /* DemoUIMediaNotificationViewController.xib in Resources */,
 				EC87A3D026F3584900924E8D /* LaunchScreen.storyboard in Resources */,
+				EC3A70532754D76A007C80BA /* DemoUIInfoItemsNotificationViewController.xib in Resources */,
+				EC3A705D2754D76A007C80BA /* DemoUIPermissionsInfoViewController.xib in Resources */,
+				EC3A70622754D76A007C80BA /* DocumentSelectionTableViewCell.xib in Resources */,
 				EC87A3CD26F3584900924E8D /* Assets.xcassets in Resources */,
 				EC87A3CB26F3584300924E8D /* Main.storyboard in Resources */,
+				EC3A70652754D76A007C80BA /* DemoUICaptchaOTPViewController.xib in Resources */,
+				EC3A70582754D76A007C80BA /* DemoUICarouselScrollViewController.xib in Resources */,
+				EC3A70572754D76A007C80BA /* DemoUIWarningNotificationViewController.xib in Resources */,
+				EC3A705C2754D76A007C80BA /* DemoUIErrorViewController.xib in Resources */,
+				EC3A70672754D76A007C80BA /* DemoUICaptchaTextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BF9EF91E828262A7A2BEB29D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F225BC72D9C4DC59876BC4FD /* [CP] Check Pods Manifest.lock */ = {
+		B30A8E277C5241F8E6569AA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,6 +277,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DEE611210AEAE14E3B843403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,9 +301,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3A705E2754D76A007C80BA /* DemoUIPhoneRequestViewController.swift in Sources */,
+				EC3A70592754D76A007C80BA /* DemoUIErrorViewController.swift in Sources */,
 				EC87A3C826F3584300924E8D /* ViewController.swift in Sources */,
+				EC3A70662754D76A007C80BA /* DemoUIPermissionsInfoViewController.swift in Sources */,
+				EC3A70602754D76A007C80BA /* DemoUICaptchaTextViewController.swift in Sources */,
+				EC3A70512754D76A007C80BA /* DemoUIInfoItemsNotificationViewController.swift in Sources */,
 				EC87A3C426F3584300924E8D /* AppDelegate.swift in Sources */,
+				EC3A705F2754D76A007C80BA /* DemoUICaptchaOTPViewController.swift in Sources */,
 				EC87A3C626F3584300924E8D /* SceneDelegate.swift in Sources */,
+				EC3A70522754D76A007C80BA /* DemoUIMediaNotificationViewController.swift in Sources */,
+				EC3A70632754D76A007C80BA /* DemoUIDocumentSelectionViewController.swift in Sources */,
+				EC3A70552754D76A007C80BA /* CustomVideoIDSDKViewController.swift in Sources */,
+				EC3A705B2754D76A007C80BA /* DemoUICarouselScrollViewController.swift in Sources */,
+				EC3A705A2754D76A007C80BA /* DemoUIWarningNotificationViewController.swift in Sources */,
+				EC3A70612754D76A007C80BA /* DocumentSelectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +459,7 @@
 		};
 		EC87A3D526F3584900924E8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9A551995EA2B3DF4A1C1AAD /* Pods-VideoIDSample.debug.xcconfig */;
+			baseConfigurationReference = E7B4DD820B72BD34C20FAE3D /* Pods-VideoIDSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,7 +479,7 @@
 		};
 		EC87A3D626F3584900924E8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8954607F087A1ADA96A34085 /* Pods-VideoIDSample.release.xcconfig */;
+			baseConfigurationReference = C00F2AA1BD0AA8D4F02A2D19 /* Pods-VideoIDSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -23,12 +24,31 @@
                                     <action selector="startVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xgs-MD-7ue"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5x-zP-QkF">
+                                <rect key="frame" x="136.5" y="255" width="141" height="30"/>
+                                <state key="normal" title="Start (Custom Style)"/>
+                                <connections>
+                                    <action selector="startVideoIDwithCustomStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQs-g9-Bhm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydn-2A-xeO">
+                                <rect key="frame" x="110.5" y="331" width="193" height="30"/>
+                                <state key="normal" title="Start (Custom Notifications)"/>
+                                <connections>
+                                    <action selector="startVIdeoIDCustomNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3r-HT-WM4"/>
+                                    <action selector="startVideoIDwithCustomStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6tb-x0-tzo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="K5x-zP-QkF" firstAttribute="top" secondItem="5NG-sc-LaF" secondAttribute="bottom" constant="36" id="IPG-fh-1Rg"/>
+                            <constraint firstItem="Ydn-2A-xeO" firstAttribute="top" secondItem="K5x-zP-QkF" secondAttribute="bottom" constant="46" id="RM0-Ov-FX4"/>
+                            <constraint firstItem="Ydn-2A-xeO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RTm-ka-qjI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5NG-sc-LaF" secondAttribute="trailing" constant="137" id="Y2k-ax-455"/>
                             <constraint firstItem="5NG-sc-LaF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="dhy-LA-uTP"/>
+                            <constraint firstItem="K5x-zP-QkF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dnI-0n-VWX"/>
                             <constraint firstItem="5NG-sc-LaF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="uGB-KB-a32"/>
                         </constraints>
                     </view>
