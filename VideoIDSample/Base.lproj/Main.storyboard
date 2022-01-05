@@ -39,10 +39,20 @@
                                     <action selector="startVideoIDwithCustomStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6tb-x0-tzo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhP-qp-UeO">
+                                <rect key="frame" x="151" y="418" width="112" height="30"/>
+                                <state key="normal" title="Start VideoScan"/>
+                                <connections>
+                                    <action selector="startVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNP-er-Ksp"/>
+                                    <action selector="startVideoScan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mMe-Xg-ZN0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="VhP-qp-UeO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4Rx-yl-wMd"/>
+                            <constraint firstItem="VhP-qp-UeO" firstAttribute="top" secondItem="Ydn-2A-xeO" secondAttribute="bottom" constant="57" id="FyF-1e-GJz"/>
                             <constraint firstItem="K5x-zP-QkF" firstAttribute="top" secondItem="5NG-sc-LaF" secondAttribute="bottom" constant="36" id="IPG-fh-1Rg"/>
                             <constraint firstItem="Ydn-2A-xeO" firstAttribute="top" secondItem="K5x-zP-QkF" secondAttribute="bottom" constant="46" id="RM0-Ov-FX4"/>
                             <constraint firstItem="Ydn-2A-xeO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RTm-ka-qjI"/>

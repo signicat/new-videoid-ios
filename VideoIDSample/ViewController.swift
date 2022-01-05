@@ -10,17 +10,19 @@ import VideoIDSDK
 
 class ViewController: UIViewController {
 
-    let endpoint = "https://etrust-sandbox.electronicid.eu/v2"
+    let endpoint = "https://etrust-sanbox.electronicid.eu/v2"
     let bearer = ""
     let rAuthority = ""
     let language = "en"
-    let documentID = 62 //Spain ID
+    let documentID = 188 //Spain ID
     var getVideoIDAuthorizationInteractor: GetVideoIDAuthorizationInteractor?
+    var getVideoScanAuthorizationInteractor: GetVideoScanAuthorizationInteractor?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         getVideoIDAuthorizationInteractor = GetVideoIDAuthorizationInteractor()
+        getVideoScanAuthorizationInteractor = GetVideoScanAuthorizationInteractor()
     }
     @IBAction func startVideoIDwithCustomStyle(_ sender: Any) {
         
@@ -62,7 +64,30 @@ class ViewController: UIViewController {
         }
     }
     
-
+    @IBAction func startVideoScan(_ sender: Any) {
+        getVideoScanAuthorizationInteractor?.getAuthorizationFor(endpoint: self.endpoint,
+                                                               bearer: self.bearer,
+                                                               rAuthority: self.rAuthority,
+                                                               onResult: { (auth) in
+                                                                
+                                                                
+                                                                let environment: VideoIDSDK.SDKEnvironment = VideoIDSDK.SDKEnvironment(url: self.endpoint, authorization: auth!)
+                                                                
+                                                                DispatchQueue.main.async {
+                                                                    
+                                                                    let view = VideoIDSDK.VideoScanSDKViewController(environment: environment, docType:self.documentID, language: self.language)
+                                                                    view.modalPresentationStyle = .fullScreen
+                                                                    view.delegate = self
+                                                                    self.present(view,
+                                                                                 animated: true, completion: nil)
+                                                                    
+                                                                }
+                                                                
+                                                               }) { (error) in
+            self.onError(code: "Error", message: "No se pudo crear autorizacion")
+        }
+    }
+    
     func startVideoIDSDK(){
         
         getVideoIDAuthorizationInteractor?.getAuthorizationFor(endpoint: self.endpoint,
