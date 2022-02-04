@@ -11,6 +11,7 @@ import VideoIDSDK
 class ViewController: UIViewController {
 
     let endpoint = "https://etrust-sandbox.electronicid.eu/v2"
+    
     let bearer = ""
     let rAuthority = ""
     let language = "en"
