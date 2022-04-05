@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         VideoIDSDK.Style.LinkButton.backgroundColorNormal = UIColor.blue
         VideoIDSDK.Style.TextNotification.textColor = .blue
         VideoIDSDK.Style.MediaNotification.descriptionTextColor = .blue
+        VideoIDSDK.Style.MediaNotification.textFont = FontType.regular.font(size: 28)
         startVideoIDSDK()
     }
     

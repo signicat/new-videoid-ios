@@ -22,7 +22,7 @@ class DemoUIInfoItemsNotificationViewController: CustomInfoItemsNotificationView
         
         button1.isHidden = true
         
-        if let text = notification.actionText {
+        if let text = notification.action1Text {
             
             button1.isHidden = false
             button1.setTitle("Action: \(text)", for: .normal)
@@ -50,7 +50,7 @@ class DemoUIInfoItemsNotificationViewController: CustomInfoItemsNotificationView
     @IBAction func actionButton1(_ sender: Any) {
         dismiss(animated: true) {
             
-            guard let action = self.notification.action else {
+            guard let action = self.notification.action1 else {
                 return
             }
             

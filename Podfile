@@ -17,6 +17,6 @@ target 'VideoIDSample' do
 
   # Pods for VideoIDSample
 
- pod 'VideoIDSDK', '~> 1.0.6'
+ pod 'VideoIDSDK', '~> 1.0.9'
 
 end
