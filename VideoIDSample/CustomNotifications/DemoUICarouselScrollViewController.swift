@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import VideoIDSDK
+import VideoIDLiteSDK
 
 class DemoUICarouselScrollViewController: CustomCarouselScrollViewController {
     @IBOutlet weak var nameLabel: UILabel!

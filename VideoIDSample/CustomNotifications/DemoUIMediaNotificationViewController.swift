@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import VideoIDSDK
+import VideoIDLiteSDK
 
 class DemoUIMediaNotificationViewController: CustomMediaNotificationViewController {
 

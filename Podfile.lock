@@ -1,28 +1,24 @@
 PODS:
-  - eIDWebRTC.bitcode (1.1.32)
   - lottie-ios (3.1.8)
   - OpenSSL-Universal (1.1.180)
-  - VideoIDSDK (1.0.6):
-    - eIDWebRTC.bitcode (= 1.1.32)
+  - VideoIDLiteSDK (1.0.9):
     - lottie-ios (= 3.1.8)
     - OpenSSL-Universal (= 1.1.180)
 
 DEPENDENCIES:
-  - VideoIDSDK (~> 1.0.6)
+  - VideoIDLiteSDK (~> 1.0.9)
 
 SPEC REPOS:
   trunk:
-    - eIDWebRTC.bitcode
     - lottie-ios
     - OpenSSL-Universal
-    - VideoIDSDK
+    - VideoIDLiteSDK
 
 SPEC CHECKSUMS:
-  eIDWebRTC.bitcode: 522a252afe3af0f7e1ac9d605e2500b82a516215
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  VideoIDSDK: 91df7316d72de488a6aa112619d9d5fdc0233dc4
+  VideoIDLiteSDK: 875f2f7031349934f3c33ca573b7972c336fb50e
 
-PODFILE CHECKSUM: 66f71264df64cf77c51b5946e3bc914fced4dc96
+PODFILE CHECKSUM: 0dc8a4ba98f85dfad674a46656a471781b81a045
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

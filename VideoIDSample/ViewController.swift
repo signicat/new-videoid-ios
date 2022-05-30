@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import VideoIDSDK
+import VideoIDLiteSDK
 
 class ViewController: UIViewController {
 
@@ -26,12 +26,12 @@ class ViewController: UIViewController {
     @IBAction func startVideoIDwithCustomStyle(_ sender: Any) {
         
        
-        VideoIDSDK.Style.Roi.linesColorSuccess = UIColor.blue
-        VideoIDSDK.Style.MediaNotification.descriptionTextColor = UIColor.blue
-        VideoIDSDK.Style.LinkButton.backgroundColorNormal = UIColor.blue
-        VideoIDSDK.Style.TextNotification.textColor = .blue
-        VideoIDSDK.Style.MediaNotification.descriptionTextColor = .blue
-        VideoIDSDK.Style.MediaNotification.textFont = FontType.regular.font(size: 28)
+        VideoIDLiteSDK.Style.Roi.linesColorSuccess = UIColor.blue
+        VideoIDLiteSDK.Style.MediaNotification.descriptionTextColor = UIColor.blue
+        VideoIDLiteSDK.Style.LinkButton.backgroundColorNormal = UIColor.blue
+        VideoIDLiteSDK.Style.TextNotification.textColor = .blue
+        VideoIDLiteSDK.Style.MediaNotification.descriptionTextColor = .blue
+        VideoIDLiteSDK.Style.MediaNotification.textFont = FontType.regular.font(size: 28)
         startVideoIDSDK()
     }
     
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
                                                                onResult: { (auth) in
                                                                 
                                                                 
-                                                                let environment: VideoIDSDK.SDKEnvironment = VideoIDSDK.SDKEnvironment(url: self.endpoint, authorization: auth!)
+                                                                let environment: VideoIDLiteSDK.SDKEnvironment = VideoIDLiteSDK.SDKEnvironment(url: self.endpoint, authorization: auth!)
                                                                 
                                                                 DispatchQueue.main.async {
                                                                     
@@ -73,11 +73,11 @@ class ViewController: UIViewController {
                                                                onResult: { (auth) in
                                                                 
                                                                 
-                                                                let environment: VideoIDSDK.SDKEnvironment = VideoIDSDK.SDKEnvironment(url: self.endpoint, authorization: auth!)
+                                                                let environment: VideoIDLiteSDK.SDKEnvironment = VideoIDLiteSDK.SDKEnvironment(url: self.endpoint, authorization: auth!)
                                                                 
                                                                 DispatchQueue.main.async {
                                                                     
-                                                                    let view = VideoIDSDK.VideoIDSDKViewController(environment: environment, docType:self.documentID, language: self.language)
+                                                                    let view = VideoIDLiteSDK.VideoIDSDKViewController(environment: environment, docType:self.documentID, language: self.language)
                                                                     view.modalPresentationStyle = .fullScreen
                                                                     view.delegate = self
                                                                     self.present(view,
@@ -95,7 +95,7 @@ class ViewController: UIViewController {
     }
     
 }
-extension ViewController : VideoIDSDK.VideoIDDelegate{
+extension ViewController : VideoIDLiteSDK.VideoIDDelegate{
     func onComplete(videoID: String) {
         DispatchQueue.main.async {
             

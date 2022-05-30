@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import VideoIDSDK
+import VideoIDLiteSDK
 
 class CustomVideoIDSDKViewController : BaseViewController {
     
