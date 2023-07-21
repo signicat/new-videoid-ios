@@ -77,7 +77,7 @@ class ViewController: UIViewController {
                                                                 
                                                                 DispatchQueue.main.async {
                                                                     
-                                                                    let view = VideoIDSDK.VideoIDSDKViewController(environment: environment, docType:self.documentID, language: self.language)
+                                                                    let view = VideoIDSDK.VideoIDSDKViewController(environment: environment, docType:self.documentID as NSNumber, language: self.language)
                                                                     view.modalPresentationStyle = .fullScreen
                                                                     view.delegate = self
                                                                     self.present(view,
