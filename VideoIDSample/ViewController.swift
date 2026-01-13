@@ -10,9 +10,9 @@ import VideoIDSDK
 
 class ViewController: UIViewController {
 
-    let endpoint = "https://etrust-sandbox.electronicid.eu/v2"
+    let endpoint = "https://etrust-live.electronicid.eu/v2"
     
-    let bearer = ""
+    let bearer = "ed820e3e-fd03-4f33-8f27-57901e11c491"
     let rAuthority = ""
     let language = "en"
     let documentID = 62 //Spain ID
@@ -20,7 +20,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         getVideoIDAuthorizationInteractor = GetVideoIDAuthorizationInteractor()
     }
     @IBAction func startVideoIDwithCustomStyle(_ sender: Any) {

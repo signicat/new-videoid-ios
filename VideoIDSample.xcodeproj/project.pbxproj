@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		169466EDEBE172FC08DD5F8F /* Pods_VideoIDSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC416AFA5FA021FA33F30C5 /* Pods_VideoIDSample.framework */; };
+		EC87A3D700000001 /* VideoIDSDK in Frameworks */ = {isa = PBXBuildFile; productRef = EC87A3D700000002 /* VideoIDSDK */; };
 		EC3A70512754D76A007C80BA /* DemoUIInfoItemsNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A70392754D769007C80BA /* DemoUIInfoItemsNotificationViewController.swift */; };
 		EC3A70522754D76A007C80BA /* DemoUIMediaNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A703A2754D769007C80BA /* DemoUIMediaNotificationViewController.swift */; };
 		EC3A70532754D76A007C80BA /* DemoUIInfoItemsNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3A703B2754D769007C80BA /* DemoUIInfoItemsNotificationViewController.xib */; };
@@ -40,9 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BAC416AFA5FA021FA33F30C5 /* Pods_VideoIDSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoIDSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C00F2AA1BD0AA8D4F02A2D19 /* Pods-VideoIDSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoIDSample.release.xcconfig"; path = "Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample.release.xcconfig"; sourceTree = "<group>"; };
-		E7B4DD820B72BD34C20FAE3D /* Pods-VideoIDSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoIDSample.debug.xcconfig"; path = "Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample.debug.xcconfig"; sourceTree = "<group>"; };
 		EC3A70392754D769007C80BA /* DemoUIInfoItemsNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIInfoItemsNotificationViewController.swift; sourceTree = "<group>"; };
 		EC3A703A2754D769007C80BA /* DemoUIMediaNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUIMediaNotificationViewController.swift; sourceTree = "<group>"; };
 		EC3A703B2754D769007C80BA /* DemoUIInfoItemsNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoUIInfoItemsNotificationViewController.xib; sourceTree = "<group>"; };
@@ -81,30 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				169466EDEBE172FC08DD5F8F /* Pods_VideoIDSample.framework in Frameworks */,
+				EC87A3D700000001 /* VideoIDSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C3FD54C408921E3820FF0AE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BAC416AFA5FA021FA33F30C5 /* Pods_VideoIDSample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		235CCD17734C47D3B008FD83 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E7B4DD820B72BD34C20FAE3D /* Pods-VideoIDSample.debug.xcconfig */,
-				C00F2AA1BD0AA8D4F02A2D19 /* Pods-VideoIDSample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		EC3A70382754D4ED007C80BA /* CustomNotifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,8 +128,6 @@
 			children = (
 				EC87A3C226F3584300924E8D /* VideoIDSample */,
 				EC87A3C126F3584300924E8D /* Products */,
-				235CCD17734C47D3B008FD83 /* Pods */,
-				0C3FD54C408921E3820FF0AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,17 +161,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC87A3D426F3584900924E8D /* Build configuration list for PBXNativeTarget "VideoIDSample" */;
 			buildPhases = (
-				B30A8E277C5241F8E6569AA1 /* [CP] Check Pods Manifest.lock */,
 				EC87A3BC26F3584300924E8D /* Sources */,
 				EC87A3BD26F3584300924E8D /* Frameworks */,
 				EC87A3BE26F3584300924E8D /* Resources */,
-				DEE611210AEAE14E3B843403 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VideoIDSample;
+			packageProductDependencies = (
+				EC87A3D700000002 /* VideoIDSDK */,
+			);
 			productName = VideoIDSample;
 			productReference = EC87A3C026F3584300924E8D /* VideoIDSample.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +200,9 @@
 				Base,
 			);
 			mainGroup = EC87A3B726F3584300924E8D;
+			packageReferences = (
+				EC87A3D700000003 /* XCRemoteSwiftPackageReference "videoidskd-spm" */,
+			);
 			productRefGroup = EC87A3C126F3584300924E8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,48 +235,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B30A8E277C5241F8E6569AA1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VideoIDSample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEE611210AEAE14E3B843403 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoIDSample/Pods-VideoIDSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC87A3BC26F3584300924E8D /* Sources */ = {
@@ -459,7 +399,6 @@
 		};
 		EC87A3D526F3584900924E8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7B4DD820B72BD34C20FAE3D /* Pods-VideoIDSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,7 +418,6 @@
 		};
 		EC87A3D626F3584900924E8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C00F2AA1BD0AA8D4F02A2D19 /* Pods-VideoIDSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,6 +457,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC87A3D700000003 /* XCRemoteSwiftPackageReference "videoidskd-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/signicat/videoidskd-spm";
+			requirement = {
+				kind = exactVersion;
+				version = 1.48.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC87A3D700000002 /* VideoIDSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC87A3D700000003 /* XCRemoteSwiftPackageReference "videoidskd-spm" */;
+			productName = VideoIDSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC87A3B826F3584300924E8D /* Project object */;
 }
